@@ -92,3 +92,8 @@ h1{
     font-size: 60px;
     color: rgb(247, 0, 234);
 }
+button{
+    width: 200px;
+    margin: 0 650px;
+    font-size: 30px;
+}
