@@ -1,0 +1,94 @@
+@keyframes move{
+    0%{
+        transform: translatex(0px);
+    }
+    100%{
+        transform: translatex(1062px);
+    }
+}
+.a1{
+    position: absolute;
+    left: 30px;
+}
+
+
+.a1 span {
+    float: left;
+    left: 100px;
+    top: 100px;
+    width: 50px;
+    height: 80px;
+    background-color: black;
+    animation: move;
+    animation-duration: 3s;
+    margin: auto;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
+.a1 div{
+    float: left;
+    left: 100px;
+    top: 100px;
+    width: 50px;
+    height: 80px;
+    background-color: black;
+    animation: move ;
+    animation-duration: 3s;
+    margin: auto;
+}
+.top{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 100%;
+    animation: move;
+    animation-duration: 3s;
+
+}
+.buttom{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 180px;
+    border-radius: 100%;
+    animation: move;
+    animation-duration: 3s;
+}
+.all{
+    position: relative;
+    margin: 100px auto;
+}
+.right{
+    position: absolute;
+    width: 100px;
+        height: 280px;
+        background-color: black;
+        right: 0;
+        top: 0px;
+}
+.b1,
+.b2{
+    position: absolute;
+    width: 100px;
+    height: 110px;
+    background-color: black;
+
+}
+.b1{
+    top: 0;
+    right: 100px;
+}
+.b2{
+    right: 100px;
+    top: 170px;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 60px;
+    color: rgb(247, 0, 234);
+}
